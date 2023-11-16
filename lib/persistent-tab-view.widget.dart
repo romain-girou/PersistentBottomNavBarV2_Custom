@@ -446,7 +446,7 @@ class _PersistentTabViewState extends State<PersistentTabView> {
             bottom: widget.decoration!.borderRadius != BorderRadius.zero
                 ? 25.0
                 : 10.0,
-            right: 10.0,
+            right: 100.0,
             child: widget.floatingActionButton!,
           ),
         ],

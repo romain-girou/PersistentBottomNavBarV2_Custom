@@ -442,11 +442,12 @@ class _PersistentTabViewState extends State<PersistentTabView> {
               },
             ),
           ),
-          Positioned(
-            bottom: (_navBarHeight! -
-								(widget.bottomScreenMargin ??
-										_navBarHeight! + widget.margin.top))
-						.abs(),
+          Align(
+						alignment: Alignment.bottomCenter,
+            // bottom: (_navBarHeight! -
+						// 		(widget.bottomScreenMargin ??
+						// 				_navBarHeight! + widget.margin.top))
+						// .abs(),
             // right: 100.0,
             child: widget.floatingActionButton!,
           ),
